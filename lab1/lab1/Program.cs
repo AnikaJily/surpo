@@ -34,7 +34,6 @@ namespace lesson
         public static void Main(string[] args)
         {
             Song b1 = new Song();
-            Song b2 = new Song();
             Console.WriteLine("Напишите песню, исполнителя, альбом и год: ");
             b1.song = name(b1.song);
             b1.singer = name(b1.singer);
@@ -45,7 +44,6 @@ namespace lesson
             b2.album = name(b2.album);
             b2.year = num(b2.year);
             Print(b1.song, b1.singer, b1.album, b1.year);
-            Print(b2.song, b2.singer, b2.album, b2.year);
 
         }
 
